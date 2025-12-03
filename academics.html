@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics - Tallinding Islamic Institute</title>
+    <meta name="description" content="Explore our academic programs including Islamic Studies, General Academics, and Arabic Language.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/translations.js"></script>
+</head>
+<body data-page="academics">
+    <header class="site-header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <div class="logo-text">
+                        <h1>
+                            <span>Tallinding</span>
+                            <span>Islamic</span>
+                            <span>Institute</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="language-switcher">
+                        <button id="lang-ar" class="lang-btn active">العربية</button>
+                        <button id="lang-en" class="lang-btn">EN</button>
+                    </div>
+                    <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html" data-nav-item="home" data-translate="navHome">Home</a></li>
+                    <li><a href="about.html" data-nav-item="about" data-translate="navAbout">About</a></li>
+                    <li><a href="academics.html" data-nav-item="academics" data-translate="navAcademics">Academics</a></li>
+                    <li><a href="admissions.html" data-nav-item="admissions" data-translate="navAdmissions">Admissions</a></li>
+                    <li><a href="gallery.html" data-nav-item="gallery" data-translate="navGallery">Gallery</a></li>
+                    <li><a href="staff.html" data-nav-item="staff" data-translate="navStaff">Staff</a></li>
+                    <li><a href="#login" data-nav-item="login" data-translate="navLogin" class="nav-login-link">Login / Sign Up</a></li>
+                </ul>
+            </nav>
+            <div class="header-banner">
+                <div class="gambian-flag">
+                    <div class="flag-stripe flag-red"></div>
+                    <div class="flag-stripe flag-white"></div>
+                    <div class="flag-stripe flag-blue"></div>
+                    <div class="flag-stripe flag-white"></div>
+                    <div class="flag-stripe flag-green"></div>
+                </div>
+                <div class="institute-tagline">
+                    <p data-translate="headerTagline">Excellence in Islamic Education Since 1963</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="white-line-separator"></div>
+
+    <div class="mobile-drawer" id="mobile-drawer">
+        <button class="mobile-close" id="mobile-menu-close" aria-label="Close menu">&times;</button>
+        <ul>
+            <li><a href="index.html" data-nav-item="home" data-translate="navHome">Home</a></li>
+            <li><a href="about.html" data-nav-item="about" data-translate="navAbout">About</a></li>
+            <li><a href="academics.html" data-nav-item="academics" data-translate="navAcademics">Academics</a></li>
+            <li><a href="admissions.html" data-nav-item="admissions" data-translate="navAdmissions">Admissions</a></li>
+            <li><a href="gallery.html" data-nav-item="gallery" data-translate="navGallery">Gallery</a></li>
+            <li><a href="staff.html" data-nav-item="staff" data-translate="navStaff">Staff</a></li>
+            <li><a href="#login" data-nav-item="login" data-translate="navLogin" class="nav-login-link">Login / Sign Up</a></li>
+        </ul>
+        <div class="language-switcher">
+            <button id="lang-ar-mobile" class="lang-btn active">العربية</button>
+            <button id="lang-en-mobile" class="lang-btn">EN</button>
+        </div>
+    </div>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1 data-translate="academicsTitle">Our Academic Programs</h1>
+            <p data-translate="academicsSubtitle">Comprehensive education combining Islamic knowledge with modern academics</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate="islamicStudiesTitle">Islamic Studies</h2>
+                <p class="section-description" data-translate="islamicStudiesDesc">
+                    Our Islamic Studies program provides comprehensive religious education, ensuring students develop a strong foundation in Islamic knowledge and practice.
+                </p>
+            </div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3 data-translate="quranTitle">Qur'an Memorization</h3>
+                    <p data-translate="quranDesc">Systematic memorization of the Holy Qur'an with proper Tajweed and understanding.</p>
+                </div>
+                <div class="info-card">
+                    <h3 data-translate="hadithTitle">Hadith</h3>
+                    <p data-translate="hadithDesc">Study of the sayings and actions of Prophet Muhammad (peace be upon him).</p>
+                </div>
+                <div class="info-card">
+                    <h3 data-translate="fiqhTitle">Fiqh</h3>
+                    <p data-translate="fiqhDesc">Islamic jurisprudence covering worship, transactions, and daily life matters.</p>
+                </div>
+                <div class="info-card">
+                    <h3 data-translate="arabicTitle">Arabic</h3>
+                    <p data-translate="arabicDesc">Comprehensive Arabic language studies including grammar, vocabulary, and literature.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section alt">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate="generalStudiesTitle">General Studies</h2>
+                <p class="section-description" data-translate="generalStudiesDesc">
+                    Our general academic program ensures students receive quality education in core subjects, preparing them for further studies and future careers.
+                </p>
+            </div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3 data-translate="mathTitle">Mathematics</h3>
+                    <p data-translate="mathDesc">Comprehensive math curriculum from basic arithmetic to advanced algebra and geometry.</p>
+                </div>
+                <div class="info-card">
+                    <h3 data-translate="englishTitle">English</h3>
+                    <p data-translate="englishDesc">Language skills development including reading, writing, speaking, and comprehension.</p>
+                </div>
+                <div class="info-card">
+                    <h3 data-translate="scienceTitle">Science</h3>
+                    <p data-translate="scienceDesc">Biology, Chemistry, and Physics taught with practical experiments and demonstrations.</p>
+                </div>
+                <div class="info-card">
+                    <h3 data-translate="socialTitle">Social Studies</h3>
+                    <p data-translate="socialDesc">History, Geography, and Civics to understand our world and society.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate="curriculumTitle">Academic Stages</h2>
+            </div>
+            <div class="step-list">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div>
+                        <h3 data-translate="stage1Title">Foundation Stage</h3>
+                        <p data-translate="stage1Desc">Introduction to basic Islamic teachings, Arabic alphabet, and fundamental academic skills. Ages 5-7.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div>
+                        <h3 data-translate="stage2Title">Elementary Stage</h3>
+                        <p data-translate="stage2Desc">Building on foundations with structured Qur'an memorization, Hadith studies, and core academic subjects. Ages 8-10.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div>
+                        <h3 data-translate="stage3Title">Intermediate Stage</h3>
+                        <p data-translate="stage3Desc">Advanced Islamic studies including Fiqh, deeper Arabic studies, and expanded general academics. Ages 11-13.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">4</div>
+                    <div>
+                        <h3 data-translate="stage4Title">Advanced Stage</h3>
+                        <p data-translate="stage4Desc">Preparation for higher education with comprehensive Islamic scholarship and academic excellence. Ages 14+.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 data-translate="schoolName">Tallinding Islamic Institute</h3>
+                    <p data-translate="footerRights">© 2025 All rights reserved.</p>
+                </div>
+                <div class="footer-column">
+                    <h3 data-translate="quickLinksTitle">Quick Links</h3>
+                    <a href="about.html" data-translate="navAbout">About</a>
+                    <a href="#academics" data-translate="programsLink">Programs</a>
+                    <a href="admissions.html" data-translate="navAdmissions">Admissions</a>
+                    <a href="index.html#contact" data-translate="navContact">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h3 data-translate="resourcesTitle">Resources</h3>
+                    <a href="#" data-translate="parentPortal">Parent Portal</a>
+                    <a href="#" data-translate="studentResources">Student Resources</a>
+                    <a href="#" data-translate="facultyDirectory">Faculty Directory</a>
+                    <a href="#" data-translate="library">Library</a>
+                </div>
+                <div class="footer-column">
+                    <h3 data-translate="connectTitle">Connect With Us</h3>
+                    <p data-translate="connectText">Follow us on social media for updates and news.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p data-translate="footerRights">© 2025 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
